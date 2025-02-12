@@ -1,0 +1,95 @@
+LoWu: 2,SheungShui
+LokMaChau: 3,SheungShui
+SheungShui: 2,LoWu; 3,LokMaChau; 4,FanLing
+FanLing: 4,SheungShui; 5,TaiWo
+TaiWo: 5,FanLing; 6,TaiPoMarket
+TaiPoMarket: 6,TaiWo; 7,University
+University: 7,TaiPoMarket; 8,FoTan
+FoTan: 8,University; 9,ShaTin
+ShaTin: 9,FoTan; 10,TaiWai
+TaiWai: 10,ShaTin; 11,KowloonTong; 12,CheKungTemple; 13,HinKeng
+KowloonTong: 11,TaiWai; 14,MongKokEast; 15,LokFu; 16,ShekKipMei
+MongKokEast: 14,KowloonTong; 17,HungHom
+HungHom: 17,MongKokEast; 18,ExhibitionCentre; 19,EastTsimShaTsui; 20,HoManTin
+ExhibitionCentre: 18,HungHom; 21,Admiralty
+Admiralty: 21,ExhibitionCentre; 22,Central; 23,TsimShaTsui; 24,WanChai; 25,OceanPark
+Central: 22,Admiralty; 26,SheungWan
+TsimShaTsui: 23,Admiralty; 27,Jordan
+Jordan: 27,TsimShaTsui; 28,YauMaTei
+YauMaTei: 28,MongKok; 29,Jordan; 30,HoManTin
+MongKok: 28,PrinceEdward; 29,YauMaTei
+PrinceEdward: 28,MongKok; 31,ShamShuiPo; 32,ShekKipMei
+ShamShuiPo: 31,CheungShaWan; 32,PrinceEdward
+CheungShaWan: 31,ShamShuiPo; 33,LaiChiKok
+LaiChiKok: 33,MeiFoo; 34,CheungShaWan
+MeiFoo: 33,LaiChiKok; 35,LaiKing; 36,TsuenWanWest; 37,NamCheong
+LaiKing: 35,KwaiFong; 36,MeiFoo; 38,TsingYi; 37,NamCheong
+KwaiFong: 35,LaiKing; 39,KwaiHing
+KwaiHing: 39,TaiWoHau; 40,KwaiFong
+TaiWoHau: 39,TsuenWan; 40,KwaiHing
+Whampoa: 41,HoManTin
+HoManTin: 41,Whampoa; 30,YauMaTei; 42,ToKwaWan; 20,HungHom
+ShekKipMei: 32,PrinceEdward; 16,KowloonTong
+LokFu: 15,KowloonTong; 43,WongTaiSin
+WongTaiSin: 43,LokFu; 44,DiamondHill
+DiamondHill: 44,WongTaiSin; 45,ChoiHung; 13,HinKeng; 46,KaiTak
+ChoiHung: 45,DiamondHill; 47,KowloonBay
+KowloonBay: 47,ChoiHung; 48,NgauTauKok
+NgauTauKok: 48,KowloonBay; 49,KwunTong
+KwunTong: 49,NgauTauKok; 50,LamTin
+LamTin: 50,KwunTong; 51,YauTong
+YauTong: 51,LamTin; 52,TiuKengLeng; 53,QuarryBay
+TiuKengLeng: 52,YauTong; 54,TseungKwanO
+KennedyTown: 55,HKU
+HKU: 55,KennedyTown; 56,SaiYingPun
+SaiYingPun: 56,HKU; 57,SheungWan
+SheungWan: 57,SaiYingPun; 26,Central
+WanChai: 24,Admiralty; 58,CausewayBay
+CausewayBay: 58,WanChai; 59,TinHau
+TinHau: 59,CausewayBay; 60,FortressHill
+FortressHill: 60,TinHau; 61,NorthPoint
+NorthPoint: 61,FortressHill; 53,QuarryBay
+QuarryBay: 53,NorthPoint; 62,TaiKoo; 51,YauTong
+TaiKoo: 62,QuarryBay; 63,SaiWanHo
+SaiWanHo: 63,TaiKoo; 64,ShauKeiWan
+ShauKeiWan: 64,SaiWanHo; 65,HengFaChuen
+HengFaChuen: 65,ShauKeiWan; 66,ChaiWan
+ChaiWan: 66,HengFaChuen
+OceanPark: 25,Admiralty; 67,WongChukHang
+WongChukHang: 67,OceanPark; 68,LeiTung
+LeiTung: 68,WongChukHang; 69,SouthHorizons
+SouthHorizons: 69,LeiTung
+TseungKwanO: 54,TiuKengLeng; 70,LOHASPark; 71,HangHau
+HangHau: 71,TseungKwanO; 72,PoLam
+PoLam: 72,HangHau
+HongKong: 73,Kowloon
+Kowloon: 73,HongKong; 74,TsingYi; 75,Olympic
+TsingYi: 74,Kowloon; 76,Airport; 77,SunnyBay; 38,LaiKing
+Airport: 76,TsingYi; 78,AsiaWorld-Expo
+AsiaWorld-Expo: 78,Airport
+TungChung: 79,SunnyBay
+SunnyBay: 79,TungChung; 77,TsingYi; 80,DisneylandResort
+DisneylandResort: 80,SunnyBay
+NamCheong: 37,MeiFoo; 81,Austin; 37,LaiKing; 75,Olympic
+Olympic: 75,NamCheong; 74,Kowloon
+TuenMun: 82,SiuHong
+SiuHong: 82,TuenMun; 83,TinShuiWai
+TinShuiWai: 83,SiuHong; 84,LongPing
+LongPing: 84,TinShuiWai; 85,YuenLong
+YuenLong: 85,LongPing; 86,KamSheungRoad
+KamSheungRoad: 86,YuenLong; 87,TsuenWanWest
+TsuenWanWest: 87,KamSheungRoad; 88,MeiFoo
+Austin: 81,NamCheong; 89,EastTsimShaTsui
+EastTsimShaTsui: 89,Austin; 19,HungHom
+ToKwaWan: 42,HoManTin; 90,SungWongToi
+SungWongToi: 90,ToKwaWan; 91,KaiTak
+KaiTak: 46,DiamondHill; 91,SungWongToi
+HinKeng: 13,DiamondHill; 92,TaiWai
+CheKungTemple: 12,TaiWai; 93,ShaTinWai
+ShaTinWai: 93,CheKungTemple; 94,CityOne
+CityOne: 94,ShaTinWai; 95,ShekMun
+ShekMun: 95,CityOne; 96,TaiShuiHang
+TaiShuiHang: 96,ShekMun; 97,HengOn
+HengOn: 97,TaiShuiHang; 98,MaOnShan
+MaOnShan: 98,HengOn; 99,WuKaiSha
+WuKaiSha: 99,MaOnShan
