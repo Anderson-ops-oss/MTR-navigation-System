@@ -3,14 +3,14 @@
 This project implements two algorithms for navigating the MTR (Mass Transit Railway) system: Uniform Cost Search (UCS) and Breadth-First Search (BFS). The algorithms help find the optimal path and cost between two stations in the MTR system.
 
 Table of Contents
-Introduction
-Features
-Requirements
-Usage
-File Structure
-Algorithms
-Uniform Cost Search (UCS)
-Breadth-First Search (BFS)
+*Introduction
+*Features
+*Requirements
+*Usage
+*File Structure
+*Algorithms
+*Uniform Cost Search (UCS)
+*Breadth-First Search (BFS)
 
 Introduction
 This project provides a way to navigate the MTR system using two different search algorithms. Users can input the start and goal stations, choose the algorithm, and get the optimal path and cost or the number of stations in the path.
