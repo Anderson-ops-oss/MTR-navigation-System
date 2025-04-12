@@ -6,10 +6,11 @@ This project implements two algorithms for navigating the Hong Kong MTR (Mass Tr
 * Introduction
 * Features
 * Requirements
+* Limitations
 * Usage
 * File Structure
 * Algorithms
-  * Uniform Cost Search (UCS)
+  * Uniform Cost Search (UCS)a
   * Breadth-First Search (BFS)
 
 ## Introduction ## 
@@ -26,6 +27,11 @@ This project provides a way to navigate the MTR system using two different searc
 * heapq module (standard library)
 * collections module (standard library)
 
+## Limitations ##
+* Fare Information: Current station costs are based on the MTR 2024 fare table as single journey fares
+* Distance-based Pricing: The system currently doesn't account for the MTR's distance-based pricing where longer journeys have proportionally lower costs per station
+* Interchange Stations: Special cases like Hong Kong/Central stations and Tsim Sha Tsui/East Tsim Sha Tsui stations are treated as separate stations in the current implementation
+
 ## Usage ##  
 * Ensure you have Python 3 installed on your system.
 * Prepare a file named station_information.txt with the MTR station data.
@@ -34,6 +40,7 @@ This project provides a way to navigate the MTR system using two different searc
 ## File Structure ## 
 * mtr_navigation.py: Main script containing the UCS and BFS algorithms and user input handling.
 * station_information.txt: Text file containing the MTR station information.
+* HKMTR Fares.pdf: MTR Tickets and Fares
 
 ## Algorithms ##
 * Uniform Cost Search (UCS)
